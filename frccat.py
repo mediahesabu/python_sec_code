@@ -171,7 +171,7 @@ def client_handler (client_socket):
                 
                 while True:
                         client_socket.send("<FRC:# ")
-                        (enter key)
+                        
                         cmd_buffer = ""
                         while "\n" not in cmd_buffer:
                                 cmd_buffer += client.socket.recv(1024)
